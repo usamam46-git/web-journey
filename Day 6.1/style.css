@@ -1,0 +1,81 @@
+h1 {
+    text-align: center;
+    padding: 0px;
+    margin: 0px 0px 3px 0px;
+}
+
+.second {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.third {
+    text-align: center;
+    margin: 4px;
+}
+
+.summary {
+    text-decoration: underline;
+    padding: 0px;
+    margin: 0px;
+}
+
+.work {
+    text-decoration: underline;
+    margin: 0px;
+    padding: 0px;
+}
+
+.dev {
+    margin: 0px;
+    padding: 0px;
+}
+
+.webdetails {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ul1 {
+    margin: 0px;
+    padding: 0px;
+    text-align: start;
+}
+
+.hrm {
+    margin: 0PX;
+}
+
+.hr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.educationheadline {
+    text-decoration: underline;
+}
+
+.EDUCATION {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+}
+
+.bom {
+    margin: 0px;
+}
+
+.skillsheadline {
+    text-decoration: underline;
+}
+
+.certificatesheadline {
+    text-decoration: underline;
+    text-decoration: underline;
+}
+a{color: black;}

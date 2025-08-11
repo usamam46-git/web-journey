@@ -1,0 +1,26 @@
+button {
+    background-color: burlywood;
+    border: none;
+    color: bisque;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 2px 2px 5px black;
+    transition: all .3s;
+}
+
+button:hover {
+    background-color: brown;
+    color: white;
+    text-shadow: 5px 5px 10px rgb(238, 229, 229);
+    box-shadow: 2px 2px 5px black;
+}
+
+body {
+    background-color: lightgray;
+}

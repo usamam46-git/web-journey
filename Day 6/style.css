@@ -1,0 +1,13 @@
+body {
+    background-color: lightslategray;
+}
+
+.navbar {
+    background:linear-gradient(45deg, yellow, green);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+}
+.links{color: azure;}
+a{color: aliceblue;}

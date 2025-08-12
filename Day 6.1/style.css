@@ -16,13 +16,13 @@ h1 {
 }
 
 .summary {
-    text-decoration: underline;
+    border-bottom: 2px solid black;
     padding: 0px;
     margin: 0px;
 }
 
 .work {
-    text-decoration: underline;
+    border-bottom: 2px solid black;
     margin: 0px;
     padding: 0px;
 }
@@ -55,7 +55,7 @@ h1 {
 }
 
 .educationheadline {
-    text-decoration: underline;
+    border-bottom: 2px solid black;
 }
 
 .EDUCATION {
@@ -71,11 +71,14 @@ h1 {
 }
 
 .skillsheadline {
-    text-decoration: underline;
+    border-bottom: 2px solid black;
 }
 
 .certificatesheadline {
-    text-decoration: underline;
-    text-decoration: underline;
+    border-bottom: 2px solid black;
+}
 }
 a{color: black;}
+body{ background-color: lightgrey;
+margin: 0px 3px 0px 3px;
+padding: 0px 3px 0px 3px;}

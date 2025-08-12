@@ -1,0 +1,29 @@
+.first-div {
+    border: 2px solid black;
+    background-color: lightcoral;
+    color: white;
+    height: 10vh;
+    width: 70vw;
+    margin: auto;
+}
+html{font-size: 12px;}
+
+.container {
+    border: 2px solid black;
+    background-color: lightblue;
+    color: white;
+    width: 70vw;
+    margin: 25px auto;
+    min-height: 80vh;
+    font-size: 20px;
+}
+.container p{font-size: 0.8rem;}
+
+.footer {
+    border: 2px solid black;
+    background-color: lightgreen;
+    color: white;
+    width: 70vw;
+    margin: 25px auto;
+}
+body{background-color: lightgray;}

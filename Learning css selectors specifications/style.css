@@ -1,0 +1,9 @@
+h1{color: bisque;}
+.yellow{color: yellow;
+}
+.blue{color: blue;
+}
+.green{color: green;
+}
+#test{color: chocolate;}
+h1{color: rgb(113, 59, 21) !important;}

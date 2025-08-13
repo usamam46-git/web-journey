@@ -1,0 +1,68 @@
+body {
+    background-color: #F0EBF8;
+}
+
+.personal {
+    border-radius: 8px;
+    width: 40vw;
+    margin: 20px auto;
+    background-color: white;
+    border-top: 8px solid #673AB7;
+    padding: 20px;
+    height: 9vh;
+}
+
+.name,
+.email,
+.address {
+    border-radius: 8px;
+    width: 40vw;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    height: 11vmin;
+}
+
+.button {
+    text-align: center;
+    width: 62vw;
+}
+
+button {
+    background-color: #673AB7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    font-size: 12px;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.warning {
+    width: 70vw;
+    text-align: center;
+    color: grey;
+}
+
+.warning2 {
+    text-align: center;
+    color: grey;
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 2px;
+}

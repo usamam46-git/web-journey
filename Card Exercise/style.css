@@ -1,0 +1,76 @@
+.parent {
+    height: 80vmin;
+    width: 60vmin;
+    margin: 40px auto;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 5px 5px 10px black;
+}
+
+img {
+    height: 250px;
+    width: 400px;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #dfeef6;
+}
+
+button {
+    border: none;
+    padding: 15px 40px;
+    border-radius: 20px;
+    background-color: #B1BDCA;
+    color: #346CAB;
+}
+
+button:hover {
+    background-color: #5785b9;
+    cursor: pointer;
+    color: white;
+    transition: all .3s;
+}
+
+button:active {
+    background-color: #346CAB;
+    color: white;
+    transition: all .3s;
+    padding: 15px 45px;
+}
+
+.para {
+    margin: 10px;
+    position: relative;
+    top: 30px;
+}
+
+.button {
+    position: relative;
+    top: 40px;
+    left: 140px;
+}
+
+.h1 {
+    position: relative;
+    top: 30px;
+    margin: 10px;
+}
+
+.cap {
+    position: relative;
+    top: 15px;
+    margin: 10px;
+}
+
+span {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 2px 2px 1px black;
+    border: none;
+}

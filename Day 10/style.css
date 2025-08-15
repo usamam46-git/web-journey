@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    text-decoration: underline;
+    margin: 5px;
+    text-decoration-thickness: 2px;
+}
+
+.main {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    position: sticky;
+    top: 0px;
+    border-radius: 10px;
+    background: linear-gradient(to right, white, rgb(161, 161, 231));
+}
+
+:root {
+    --color: beige;
+}
+body{background-color: var(--color);}

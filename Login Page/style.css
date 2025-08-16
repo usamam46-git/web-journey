@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+.box {
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+    padding: 15px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+     -webkit-backdrop-filter: blur(10px);
+}
+
+.checkbox {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.password {
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+
+.name {
+    margin-top: 15%;
+}
+
+.noaccount {
+    margin-top: 13%;
+    text-align: center;
+}
+
+input {
+    padding: 15px;
+    outline: none;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    background-color: transparent;
+    color: white;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(Pagani_Zonda_Diamante_Verde-8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+a{text-decoration: none;}
+input::placeholder{color: white}

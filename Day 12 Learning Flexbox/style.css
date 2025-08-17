@@ -1,0 +1,27 @@
+.container {
+    width: 80vw;
+    height: 50vw;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px 30px;
+    flex-wrap: wrap;
+}
+
+.item {
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    margin: 5px;
+}
+
+.order1 {
+    align-self: flex-end;
+    flex-grow: 2;
+}
+
+.order2 {
+    order: 1;
+    /* flex-shrink: 2; */
+}

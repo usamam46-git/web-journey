@@ -1,7 +1,6 @@
 body {
     background-color: #F0EBF8;
 }
-
 .personal {
     font-family: roboto, sans-serif;
     border-radius: 8px;
@@ -12,7 +11,6 @@ body {
     padding: 20px;
     height: 9vh;
 }
-
 .name,
 .email,
 .address {
@@ -23,12 +21,10 @@ body {
     padding: 20px;
     height: 11vmin;
 }
-
 .button {
     text-align: center;
-    width: 62vw;
+    width: 61vw;
 }
-
 button {
     background-color: #673AB7;
     color: white;
@@ -37,18 +33,15 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
-
 button:hover {
     background-color: #2d076f;
     transition: all .2s;
     color: white;
 }
-
 button:active {
     transform: scale(0.95);
     background-color: #673AB7;
 }
-
 input {
     width: 80%;
     padding: 12px;
@@ -62,24 +55,20 @@ input {
     border-left: none;
     border-right: none;
 }
-
 .warning {
     width: 70vw;
     text-align: center;
     color: grey;
 }
-
 .warning2 {
     text-align: center;
     color: grey;
 }
-
 label {
     font-weight: bold;
     display: block;
     margin-bottom: 2px;
 }
-
 input::placeholder {
     color: black;
 }

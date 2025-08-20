@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: bisque;
+    gap: 100px;
+    width: 70%;
+    border-radius: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    padding: 5px;
+}
+
+a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 4px;
+    width: 0px;
+    background: #d98787;
+    border-radius: 4px;
+    transition: all .3s;
+    left: 0;
+}
+
+a:hover::before {
+    width: 60px;
+}

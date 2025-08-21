@@ -1,0 +1,366 @@
+:root {
+    --primary-color: #142C8E;
+    --seconday-color: #0070E0;
+}
+
+body {
+    display: grid;
+    grid-area: "navbar";
+    grid-template-rows: 100px 1fr;
+    grid-area: "navbar"
+        "main";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.left {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    position: absolute;
+    left: 80px;
+    top: 7px;
+}
+
+.right {
+    display: flex;
+    position: absolute;
+    right: 180px;
+    gap: 50px;
+    top: 36px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px 5px;
+    position: relative;
+    grid-area: navbar;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.left li img {
+    height: 65px;
+}
+
+.left li svg {
+    color: var(--primary-color);
+}
+
+.btn1 {
+    border: none;
+    background-color: white;
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.btn2 {
+    padding: 10px 20px;
+    border: 2px solid #142C8E;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--primary-color);
+    background-color: white;
+}
+
+.btn3 {
+    padding: 10px 20px;
+    border: 2px solid #142C8E;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    background-color: #142C8E;
+    border: none;
+}
+
+.btn1:hover {
+    border: 1px solid silver;
+    padding: 5px;
+    transition: all 0.3s ease;
+    border-radius: 15px;
+}
+
+.btn2:hover {
+    border-color: skyblue;
+    color: skyblue;
+    transition: all 0.3s ease;
+}
+
+.btn3:hover {
+    background-color: #6886D7;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: #142C8E url(https://www.paypalobjects.com/marketing/web/shared/qrc-sms/background-swirls.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    padding: 0px;
+}
+
+.heading {
+    position: absolute;
+    top: 130px;
+    left: 150px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.heading h1 {
+    font-size: 60px;
+    color: white;
+}
+
+.subhead {
+    color: aqua;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.formdata {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.sec {
+    position: absolute;
+    width: 30%;
+    bottom: 20px;
+    left: 150px;
+}
+
+.qrbox {
+    display: flex;
+}
+
+.qr {
+    padding: 0px 50px 90px 50px;
+    border-right: 1px solid rgb(147, 144, 144);
+}
+
+.formdata input {
+    width: 250px;
+    margin-left: 20px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+}
+
+.formdata button {
+    width: 130px;
+    padding: 15px 15px;
+    border-radius: 35px;
+    background-color: #F8B722;
+    border: none;
+    margin-left: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.formdata p {
+    margin-left: 20px;
+    color: white;
+    font-size: 15px;
+}
+
+/* font-weight: bold;} */
+.secline {
+    margin-bottom: 35px;
+    margin-left: 7px;
+    color: white;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.img {
+    position: absolute;
+    bottom: 0px;
+    right: 100px;
+}
+
+.connect {
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.span1 {
+    color: #009CDE;
+}
+
+.connect {
+    margin: 30px 0px;
+}
+
+.pic1 img {
+    width: 600px;
+    height: 500px;
+}
+
+.picseg1,
+.picseg2,
+.picseg3,
+.picseg4,
+.picseg5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.pic2 img {
+    width: 600px;
+    height: 500px;
+}
+
+.pic3 img {
+    width: 600px;
+    height: 400px;
+}
+
+.pic4 img {
+    width: 600px;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.pic5 img {
+    width: 600px;
+    height: 500px;
+    margin-right: 50px;
+}
+
+@media screen and (max-width:1000px) {
+
+    .picseg1,
+    .picseg2,
+    .picseg3,
+    .picseg4,
+    .picseg5 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.logocon {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    margin: 100px auto;
+    gap: 100px;
+    font-weight: 400;
+    /* justify-content: space-around; */
+}
+
+.logogrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 600px;
+    gap: 10px;
+}
+
+/* .textlogo{width: 500px;} */
+.logo img {
+    width: 180px;
+}
+
+.downcon {
+    height: 60vh;
+    width: 100%;
+    background-color: #121661;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.downconnumbers {
+    display: flex;
+    gap: 5px;
+}
+
+.num1 {
+    border: 1px solid #1072EB;
+    padding: 20px 15px;
+    color: white;
+    background-color: #1072EB;
+    font-size: 1.5em;
+    border-radius: 10px;
+}
+
+.downcon-head {
+    color: white;
+    font-size: 1.3em;
+}
+
+.downconbtn button {
+    padding: 10px 60px;
+    border: none;
+    background-color: white;
+    color: var(--primary-color);
+    border-radius: 20px;
+}
+
+.footerpara {
+    width: 80vw;
+    margin: 100px auto;
+    color: gray;
+    font-size: 14px;
+}
+
+.footerlogo img {
+    width: 200px;
+    margin-left: 300px;
+    /* position: absolute;
+    left: 200px; */
+}
+
+.footertags {
+    width: 80vw;
+    margin: 70px auto;
+}
+
+.footertags ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    color: var(--primary-color);
+    margin-bottom: 40px;
+    margin-top: 20px;
+    /* position: absolute;
+    bottom: 100px; */
+}

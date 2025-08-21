@@ -1,0 +1,33 @@
+.container {
+    width: 80vw;
+    height: 80vh;
+    border: 1px solid black;
+    background-color: aqua;
+    position: relative;
+    margin: 500px auto;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    /* margin-top: 200px; */
+    left: 0;
+    background-color: red;
+    border-radius: 50%;
+    animation: uka 3s linear infinite, usa 2s ease-out infinite alternate;
+    
+}
+
+@keyframes uka {
+    from{left: 0;}
+    to{left: 100%;}
+}
+    
+@keyframes usa {
+        from{bottom: 0;}
+        to{bottom: 100%;}
+    }
+    
+    

@@ -144,6 +144,15 @@ a {
     color: aqua;
     margin-top: 20px;
     margin-bottom: 20px;
+    align-items: center;
+}
+
+.subhead:hover {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    transform: scale(0.95);
+    transition: all .3s;
 }
 
 .formdata {

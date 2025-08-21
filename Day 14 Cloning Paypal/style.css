@@ -151,7 +151,7 @@ a {
     color: white;
     text-decoration: underline;
     cursor: pointer;
-    transform: scale(1.07);
+    transform: translate(5px);
     transition: all .3s;
 }
 

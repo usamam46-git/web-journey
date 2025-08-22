@@ -1,0 +1,81 @@
+body {
+    background-color: black;
+
+}
+
+.box1 {
+    background-color: darkslategrey;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    position: relative;
+    border-radius: 20px;
+}
+
+.box1::after,
+.box1::before {
+    position: absolute;
+    content: "";
+    /* background-color: brown; */
+    background-image: conic-gradient(red, blue, green, yellow, purple, pink, silver, red);
+    height: 100%;
+    width: 100%;
+    z-index: -100;
+    border-radius: 20px;
+    padding: 4px;
+}
+
+.box1::before {
+    filter: blur(1.5rem);
+    opacity: 0.8;
+}
+
+.box2 {
+    background-color: darkslategrey;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    position: relative;
+    border-radius: 20px;
+}
+
+.box2::after,
+.box2::before {
+    position: absolute;
+    content: "";
+    /* background-color: brown; */
+    background-image: conic-gradient(from var(--angle), transparent 10%, blue, red);
+    height: 100%;
+    width: 100%;
+    z-index: -100;
+    border-radius: 20px;
+    padding: 4px;
+    animation: 3s spin linear infinite;
+}
+
+@keyframes spin {
+    from {
+        --angle: 0deg;
+    }
+
+    to {
+        --angle: 360deg;
+    }
+}
+
+.box2::before {
+    filter: blur(1.5rem);
+    opacity: 0.8;
+}
+
+@property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}

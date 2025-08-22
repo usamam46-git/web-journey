@@ -113,6 +113,7 @@ a {
 
 .btn3:hover {
     background-color: #6886D7;
+    transition: all 0.3s ease;
 }
 
 .container {

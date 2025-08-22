@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+}
+
+.left {
+    display: inline-flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 0.8em;
+    align-items: center;
+}
+
+.left button {
+    background-color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 13px 10px;
+    border-radius: 18px;
+}
+
+.left button:hover {
+    background-color: #01BD5F;
+    transition: all .3s;
+}
+
+
+.left img {
+    width: 100px;
+}
+
+.right {
+    display: inline-flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.right button {
+    width: 150px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: #2D2D64;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.lang {
+    align-items: center;
+    font-size: 1.1em;
+    justify-content: center;
+}
+
+.lang svg {
+    width: 20px;
+    height: 15px;
+}
+
+.conimg {
+    width: 100vw;
+    height: 110vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conimg img {
+    width: 100%;
+    height: 100%;
+}
+
+.con2 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #EBF5F0;
+    display: flex;
+    /* position: relative; */
+    gap: 10px;
+}
+
+.img1 img {
+    width: 50vw;
+    height: 70vh;
+    /* position: absolute; */
+    left: 0;
+    bottom: 0;
+    margin-top: 200px;
+}
+
+.contentimg2 {
+    /* position: absolute; */
+    right: 80px;
+    bottom: 30px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contentimg2 img :first-child {
+    width: 150px;
+}
+
+.easy {
+    color: #00BC5F;
+}
+
+.liveeasy {
+    font-weight: bolder;
+}
+
+@media screen and (max-width:1000px) {
+    .con2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.con3 {
+    width: 100vw;
+    height: 130vh;
+    background-color: #EBF5F0;
+    background-image: url(https://easypaisa.com.pk/wp-content/uploads/2022/12/Asset-1@2x-11-min-2-1536x610-1.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 50px 0px 0px 0px;
+    /* position: relative; */
+}
+
+.contentcon3 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60vw;
+    margin: auto;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.3em;
+    /* background-image: url(https://easypaisa.com.pk/wp-content/uploads/2022/12/Asset-1@2x-11-min-2-1536x610-1.png); */
+    /* margin-top: 100px; */
+}
+.contentcon3 p{font-weight: 300;}

@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #2A3138;
+    color: white;
+}
+
+.right ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 30px 20px;
+    font-size: 1.2em;
+}
+
+.left {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.con {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.blurbox {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: blur(2px);
+    z-index: 1;
+    background: url(peter-robbins-DuyN-IRAJjQ-unsplash.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    position: relative;
+    z-index: 2;
+}
+
+.box .head {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.box button {
+    padding: 7px 17px;
+    background-color: #ECAC42;
+    border: none;
+    color: white;
+}
+
+.feathead {
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.b1 {
+    width: 300px;
+    height: 200px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 8px;
+    box-shadow: 3px 3px 4px silver;
+}
+
+.featboxes {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 80%;
+    align-items: center;
+    margin: 10px auto;
+}
+.fh{font-size: 1.2em;
+font-weight: 700;}
+
+@media screen and (max-width:700px) {
+    .featboxes{display: flex;
+    flex-wrap: wrap;
+padding: 30px;
+gap: 30px;}
+
+.right ul{display: flex;
+gap: 10px;}
+
+.box{display: flex;
+gap: 35px;}
+    
+}

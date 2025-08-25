@@ -33,14 +33,14 @@ body {
     position: absolute;
     right: 180px;
     gap: 50px;
-    top: 36px;
+    top: 28px;
 }
 
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    width: 100%;
+    justify-content: space-between;
+    width: 95%;
     padding: 10px 5px;
     position: relative;
     grid-area: navbar;
@@ -252,7 +252,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 80%;
+    width: 80vw;
     margin: 50px auto;
 }
 

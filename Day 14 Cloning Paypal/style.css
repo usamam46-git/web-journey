@@ -288,6 +288,11 @@ a {
         display: flex;
         flex-wrap: wrap;
     }
+
+    .logocon {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 .logocon {
@@ -297,6 +302,7 @@ a {
     margin: 100px auto;
     gap: 100px;
     font-weight: 400;
+    padding: 0px 30px;
     /* justify-content: space-around; */
 }
 

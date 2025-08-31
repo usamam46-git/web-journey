@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.list-style-items li{
+    @apply pr-4
+}

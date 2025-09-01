@@ -1,0 +1,23 @@
+let c=[12,24,56,31];
+console.log(c);
+console.log(c[2]);
+c[2]=70;
+console.log(c);
+console.log(typeof c);
+// console.log(c.toString);
+// console.log(c);
+// console.log(c.toString());
+// console.log(c.join( " and " ));
+console.log(c.push("Usama"));
+console.log(c);
+console.log(c.shift());
+console.log(c.unshift(333));
+console.log(c);
+console.log(delete c[1]);
+console.log(c);
+let b=[22,66,77,88];
+let a=b.concat(c);
+console.log(a);
+// By doing concat original arrays will stay same
+c.splice(0,3);
+console.log(c);

@@ -65,15 +65,14 @@
 
 // capitalize("usama is a good guy");
 
-// function reverse(str){
-//     let rev="";
-//     for (let i = str.length - 1; i >= 0; i--) {
-//         rev += str[i];
-//     }
-//     console.log(rev);
-// }
-
-// reverse("usama is a good guy");
+function reverse(str){
+    let rev="";
+    for (let i = str.length - 1; i >= 0; i--) {
+        rev += str[i];
+    }
+    console.log(rev);
+}
+reverse("usama is a good guy");
 
 // function palindrome(str){
 //     let rev="";
@@ -130,10 +129,10 @@
 
 // function givemeobj(object){
 //     for (const key in object) {
-//             const element = object[key];
-//               console.log(element);
+//             const element = `${key} + ${object[key]}`;
+//             console.log(element);  
 //     }
-
+    
 // }
 // givemeobj(obj={
 //     "name":"Usama",
@@ -150,9 +149,42 @@
 // )
 // console.log(count);
 
-let arr = ["Hello", " ", "World", "!"];
-let newarr = [];
-arr.forEach((value) => {
-  newarr.push(value);
-});
-console.log(newarr);
+// let arr = ["Hello", " ", "World", "!"];
+// let newarr = [];
+// arr.forEach((value) => {
+//   newarr.push(value);
+// });
+// console.log(newarr);
+
+// let arr=[3,4,5,6,7,3,2,4,6];
+// const output=arr.reduce((a,b) => {
+//     return a*b;
+// }
+// )
+// console.log(output);
+
+
+
+
+
+// let newarr=arr.filter((value) => {
+//   return value%2===0;
+// }
+// )
+// console.log(newarr);
+
+// let marks=[82,50,95,94,96,89];
+// const output=marks.filter((value) => {
+//     return value>90;
+  
+// }
+// )
+// console.log(output);
+// let sum=0
+// for (let i = 0; i <=10; i++) {
+//    sum=sum+i;
+//    Array.from(sum);
+//    console.log(Array.from(sum));
+    
+// }
+// console.log(sum);

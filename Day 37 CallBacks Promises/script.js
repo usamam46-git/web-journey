@@ -54,7 +54,7 @@ function getData(dataId){
 // )
 // or we can do this.*******
 
-async function getAllData() {
+(async function(){
   console.log("getting data 1");
   await getData(1);
    console.log("getting data 2");
@@ -67,7 +67,7 @@ async function getAllData() {
   await getData(5);
    console.log("getting data 6");
   await getData(6);
-}
+})();
 
 // getData(1, () => {
 //     console.log("getting data 2...")

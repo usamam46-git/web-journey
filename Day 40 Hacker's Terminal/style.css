@@ -1,0 +1,21 @@
+.box{background-color: lightgreen;
+width: 50%;
+height: 400px;
+padding: 10px;}
+
+#btn{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+}
+
+#btn:hover{
+    transform: scale(0.95);
+    transition: all .3s;
+    cursor: pointer;
+}
+#btn:active{
+    background-color: maroon;
+}

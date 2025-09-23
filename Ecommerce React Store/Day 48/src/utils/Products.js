@@ -1,0 +1,23 @@
+const Products = [
+    {id:1, img:"/shoes1.jpeg", name: "Nike-Air", price:"200$", category:"shoes"},
+    {id:2, img:"/shoes2.jpeg", name: "Adidas", price:"250$", category:"shoes"},
+    {id:3, img:"/shoes3.jpeg", name: "Jordans", price:"300$", category:"shoes"},
+    {id:4, img:"/belt1.jpeg", name: "Mango", price:"50$", category:"belt"},
+    {id:5, img:"/belt2.jpeg", name: "Monark", price:"70$", category:"belt"},
+    {id:6, img:"/pent1.jpeg", name: "Royal-Tag", price:"100$", category:"pents"},
+    {id:7, img:"/pent2.jpeg", name: "Levi's", price:"120$", category:"pents"},
+    {id:8, img:"/pent3.jpeg", name: "Cougar", price:"110$", category:"pents"},
+    {id:9, img:"/shoes4.jpeg", name: "Bata", price:"200$", category:"shoes"},
+    {id:10, img:"/shoes5.jpeg", name: "Ndure", price:"150$", category:"shoes"},
+    {id:11, img:"/shirt1.jpeg", name: "Outfitters", price:"50$", category:"shirts"},
+    {id:12, img:"/shirt2.jpeg", name: "Focus", price:"100$", category:"shirts"},
+    {id:13, img:"/shirt3.jpeg", name: "Zellbury", price:"70$", category:"shirts"},
+    {id:14, img:"/wallet1.jpeg", name: "Ethnic", price:"100$", category:"wallets"},
+    {id:15, img:"/wallet2.jpeg", name: "Hugo", price:"120$", category:"wallets"},
+    {id:16, img:"/wallet3.jpeg", name: "Cameo", price:"140$", category:"wallets"},
+    {id:17, img:"/sunglasses1.jpeg", name: "Ray-Ben", price:"30$", category:"sunglasses"},
+    {id:18, img:"/sunglasses2.jpeg", name: "Shades", price:"200$", category:"sunglasses"},
+    {id:19, img:"/shirt4.jpeg", name: "Furor", price:"100$", category:"shirts"},
+    {id:20, img:"/shirt5.jpeg", name: "Breakout", price:"90$", category:"shirts"},
+];
+export default Products;

@@ -3,6 +3,7 @@ import Products from "./utils/Products.js";
 import ProductCard from "./components/ProductCard.jsx";
 import NoDistractionSearchField from "./components/Input.jsx";
 import Navbar from "./components/Navbar.jsx";
+import FooterNavs from "./components/FooterNavs.jsx";
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -32,6 +33,7 @@ const App = () => {
           </p>
         )}
       </div>
+      <FooterNavs />
     </>
   );
 };

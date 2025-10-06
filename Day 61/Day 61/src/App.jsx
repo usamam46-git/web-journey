@@ -1,10 +1,10 @@
 import React from 'react'
-import Dogs from './Dogs'
+import Clock from './Clock'
 
 const App = () => {
   return (
     <div>
-      <Dogs />
+    <Clock />
     </div>
   )
 }

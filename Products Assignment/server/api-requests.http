@@ -1,0 +1,32 @@
+GET http://localhost:8000/api/v1/products
+
+###
+
+POST http://localhost:8000/api/v1/products
+Content-Type: application/json
+
+{
+    "name": "Rolex Watch",
+    "price": 9000,
+    "description": "Elegant blue Rolex watch made from premium materials.",
+    "category": "Accessories",
+    "inStock": true
+}
+
+###
+
+GET http://localhost:8000/api/v1/products/68f6a5a4f88605286b22447c
+
+###
+
+PUT http://localhost:8000/api/v1/products/68f6a5a4f88605286b22447c
+Content-Type: application/json
+
+{
+    "price": 9500,
+    "inStock": false
+}
+
+###
+
+DELETE http://localhost:8000/api/v1/products/68f6a51bf88605286b224479
